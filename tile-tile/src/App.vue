@@ -1,15 +1,18 @@
 <template>
   <v-app>
-    <AppHeader></AppHeader>
+    <AppHeader/>
+    <AppFooter/>
   </v-app>
 </template>
 
 <script>
 import AppHeader from './components/AppHeader'
+import AppFooter from './components/AppFooter'
 export default {
   name: 'App',
   components: {
-    AppHeader
+    AppHeader,
+    AppFooter
   }
 }
 </script>

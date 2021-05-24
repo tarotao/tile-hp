@@ -1,0 +1,16 @@
+<template>
+    <v-footer
+        dark
+        absolute
+    >
+        <div class="footer">
+            © 2021. All right reserved
+        </div>
+    </v-footer>
+</template>
+
+<style lang="scss" scoped>
+.footer {
+    margin: 0 auto;
+}
+</style>
