@@ -2,27 +2,27 @@ export default {
   menuItems: [
     {
       name: 'ホーム',
-      url: 'https://www.netflix.com/browse'
+      url: '/'
     },
     {
       name: '会社概要',
-      url: '#'
+      url: 'about'
     },
     {
       name: '業務内容',
-      url: '#'
+      url: 'work'
     },
     {
       name: '施工例',
-      url: '#'
+      url: 'service'
     },
     {
       name: 'アクセス',
-      url: '#'
+      url: 'access'
     },
     {
       name: 'お問い合わせ',
-      url: '#'
+      url: 'information'
     }
   ]
 }
