@@ -31,6 +31,10 @@
         font-size: 28px;
         font-weight: bold;
         font-family: 'Sawarabi Mincho', sans-serif;
+
+         @include display_pc {
+            font-size: 40px;
+        }
     }
 }
 </style>
