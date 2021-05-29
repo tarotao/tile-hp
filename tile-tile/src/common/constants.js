@@ -24,5 +24,19 @@ export default {
       name: 'お問い合わせ',
       url: 'information'
     }
+  ],
+  workItems: [
+    {
+      src: require('../assets/img/work-img-1.png'),
+      url: '/work#work-1'
+    },
+    {
+      src: require('../assets/img/work-img-2.jpg'),
+      url: '/work#work-2'
+    },
+    {
+      src: require('../assets/img/work-img-3.jpg'),
+      url: '/work#work-3'
+    }
   ]
 }
