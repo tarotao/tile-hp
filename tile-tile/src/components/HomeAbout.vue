@@ -1,7 +1,7 @@
 <template>
   <section class="home-about">
     <div class="section__title">
-      <div class="section__title-text">01. About Me</div>
+      <div class="section__title-text">会社概要</div>
     </div>
     <v-container>
         <v-row class="home-about__contents">
@@ -9,8 +9,7 @@
                 <img src="../assets/img/profile.jpg" alt="">
             </v-col>
             <v-col md="5" class="home-about__contents-text">
-                <p>##########################################</p>
-                <p>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</p>
+                <p>風呂場、トイレなどの水回りを始めとして、玄関周りや外壁など、経験豊富な職人による高い技術力で施工いたします。<br>「顧客満足の向上」を活動の中心に置き、お客様と信頼関係を構築し、ニーズにお応えできるよう、日々邁進しています。</p>
             </v-col>
         </v-row>
         <AppButton :button-text="buttonText" :url="url"/>
@@ -42,6 +41,7 @@ export default {
     &-img {
         text-align: center;
         overflow: hidden;
+        height: 50vh;
     }
 
     &-text {

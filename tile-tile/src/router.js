@@ -3,7 +3,9 @@ import Router from 'vue-router'
 import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Work from './components/Work.vue'
-import Service from './components/Service.vue'
+import Case from './components/Case.vue'
+import Recruit from './components/Recruit.vue'
+import Contact from './components/Contact.vue'
 
 Vue.use(Router)
 
@@ -25,9 +27,19 @@ export default new Router({
       component: Work
     },
     {
-      path: '/service',
-      name: 'service',
-      component: Service
+      path: '/case',
+      name: 'case',
+      component: Case
+    },
+    {
+      path: '/recruit',
+      name: 'recruit',
+      component: Recruit
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact
     }
   ],
   scrollBehavior (to, from, savedPositions) {

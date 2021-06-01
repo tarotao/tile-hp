@@ -4,7 +4,7 @@
         absolute
     >
         <div class="footer">
-            © 2021. All right reserved
+            © 2021. （有）石橋タイル工業
         </div>
     </v-footer>
 </template>

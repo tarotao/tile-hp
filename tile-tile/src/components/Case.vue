@@ -1,16 +1,16 @@
 <template>
   <section class="service">
     <AppBackgroundHolder :title="title"/>
-    <div id="direction">
-      <h2>ディレクション</h2>
+    <div id="case-1">
+      <h2>住宅</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
-    <div id="coding">
-      <h2>コーディング</h2>
+    <div id="case-2">
+      <h2>店舗・施設</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
-    <div id="design">
-      <h2>デザイン</h2>
+    <div id="case-3">
+      <h2>補修</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
   </section>
@@ -21,7 +21,7 @@ import AppBackgroundHolder from './AppBackgroundHolder.vue'
 export default {
   data () {
     return {
-      title: 'Service'
+      title: '実績紹介'
     }
   },
   components: {

@@ -3,8 +3,8 @@
         <v-container fluid fill-height class="home-hero__content">
         <v-row>
             <v-col class="home-hero__content-text">
-                <p>半世紀以上の歴史からくる</p>
-                <p>安心と信頼の施工をいたします</p>
+                <p>50年以上の歴史が紡ぐ</p>
+                <p>確かな技術力</p>
             </v-col>
         </v-row>
     </v-container>

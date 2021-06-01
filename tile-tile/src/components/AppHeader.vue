@@ -2,10 +2,9 @@
     <header>
       <v-app-bar
           app
-          dark
       >
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-        <v-toolbar-title>石橋タイル工業</v-toolbar-title>
+        <v-toolbar-title>（有）石橋タイル工業</v-toolbar-title>
         <v-tabs>
           <v-tab
             v-for="(menuItem, index) in menuItems"

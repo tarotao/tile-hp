@@ -3,22 +3,25 @@
         <HomeHero/>
         <HomeAbout/>
         <HomeWork/>
-        <HomeService/>
+        <HomeCase/>
+        <HomeRecruit/>
     </section>
 </template>
 
 <script>
 import HomeHero from './HomeHero.vue'
 import HomeAbout from './HomeAbout.vue'
+import HomeCase from './HomeCase.vue'
 import HomeWork from './HomeWork.vue'
-import HomeService from './HomeService.vue'
+import HomeRecruit from './HomeRecruit.vue'
 
 export default {
   components: {
     HomeHero,
     HomeAbout,
     HomeWork,
-    HomeService
+    HomeCase,
+    HomeRecruit
   }
 }
 </script>
