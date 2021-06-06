@@ -6,6 +6,11 @@
                    {{ title }}
                </v-col>
            </v-row>
+           <v-row>
+              <v-col class="background-holder__content-subtext">
+                 <p>{{ subtitle }}</p>
+              </v-col>
+           </v-row>
        </v-container>
    </section>
 </template>
@@ -14,6 +19,10 @@
 export default {
   props: {
     title: {
+      type: String,
+      required: true
+    },
+    subtitle: {
       type: String,
       required: true
     }
@@ -39,6 +48,11 @@ export default {
     @include display_pc {
       font-size: 40px;
     }
+  }
+  &-subtext {
+    color: white;
+    text-align: center;
+    font-size: 17px;
   }
 }
 </style>

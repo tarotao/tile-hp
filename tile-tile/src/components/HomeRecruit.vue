@@ -1,7 +1,8 @@
 <template>
   <section class="home-recruit">
     <div class="section__title">
-      <div class="section__title-text">採用情報</div>
+      <div class="section__title-text top"><span>RECRUIT</span></div>
+      <p>採用</p>
     </div>
     <v-container class="v-con">
         <v-row class="home-recruit__contents">
@@ -32,6 +33,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "./src/styles/common/common.scss";
+
 .home-recruit__contents {
     margin-top: 20px;
     justify-content: center;
@@ -39,7 +41,6 @@ export default {
         text-align: center;
         overflow: hidden;
     }
-
     &-text {
         word-wrap: break-word;
     }

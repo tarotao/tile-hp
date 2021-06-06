@@ -1,6 +1,6 @@
 <template>
   <section class="work">
-    <AppBackgroundHolder :title="title"/>
+    <AppBackgroundHolder :title="title" :subtitle="subtitle"/>
     <!-- <div class="aaa">戸建、マンション、壁、床、あらゆるタイル工事に対応しています。スピーディーな施工・納品を実現するとともに、「お施主から何を求められているか」を自分たちで考え発展させ行動にうつすこと自慢です。
            多くの建材が普及している状態ですが、タイルは今も昔も変わらずに多くの建築物に使用されています。
            外壁の張替えや、補修など幅広く対応させていただきます。是非一度ご相談下さい。
@@ -24,7 +24,8 @@ import AppBackgroundHolder from './AppBackgroundHolder.vue'
 export default {
   data () {
     return {
-      title: '業務内容'
+      title: 'WORK',
+      subtitle: '業務内容'
     }
   },
   components: {

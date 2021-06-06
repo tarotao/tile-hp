@@ -1,27 +1,27 @@
 export default {
   menuItems: [
     {
-      name: 'ホーム',
+      name: 'HOME',
       url: '/'
     },
     {
-      name: '会社概要',
+      name: 'ABOUT',
       url: 'about'
     },
+    // {
+    //   name: 'WORKS',
+    //   url: 'work'
+    // },
     {
-      name: '業務内容',
-      url: 'work'
-    },
-    {
-      name: '実績紹介',
+      name: 'CASE',
       url: 'case'
     },
     {
-      name: '採用情報',
+      name: 'RECRUIT',
       url: 'recruit'
     },
     {
-      name: 'お問い合わせ',
+      name: 'CONTACT',
       url: 'contact'
     }
   ],
@@ -37,6 +37,18 @@ export default {
     {
       src: require('../assets/img/work-img-3.jpg'),
       url: '/case#case-3'
+    },
+    {
+      src: require('../assets/img/work-img-3.jpg'),
+      url: '/case#case-4'
+    },
+    {
+      src: require('../assets/img/work-img-3.jpg'),
+      url: '/case#case-5'
+    },
+    {
+      src: require('../assets/img/work-img-3.jpg'),
+      url: '/case#case-6'
     }
   ],
   aboutItems: [
@@ -61,6 +73,18 @@ export default {
       col: '千葉県山武市殿台２９６'
     },
     {
+      row: '電話番号',
+      col: '0479-82-4803'
+    },
+    {
+      row: 'FAX',
+      col: '0479-82-4803'
+    },
+    {
+      row: 'E-mail',
+      col: 'sigeaki@yahoo.co.jp'
+    },
+    {
       row: '資本金',
       col: '３００万円'
     },
@@ -77,10 +101,6 @@ export default {
     {
       row: '昭和４０年',
       col: '石橋タイル店を創業しタイル工事の請負を開始'
-    },
-    {
-      row: '昭和５０年',
-      col: 'xxxx'
     },
     {
       row: '平成１８年',

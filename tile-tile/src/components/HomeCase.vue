@@ -1,7 +1,8 @@
 <template>
   <section class="home-case">
     <div class="section__title">
-      <div class="section__title-text">実績紹介</div>
+      <div class="section__title-text"><span>CASE</span></div>
+      <p class="section__title-text-sub">実績紹介</p>
     </div>
     <v-container>
       <v-row class="home-case__contents">
@@ -36,13 +37,15 @@ export default {
 }
 </script>
 <style  lang="scss" scoped>
-.home-case__contents {
-  margin-top: 20px;
-  justify-content: center;
-}
-
-.home-case__contents-img {
-  text-align: center;
+.home-case {
+  margin-bottom: 100px;
+  &__contents {
+    margin: 30px;
+    justify-content: center;
+    &-img {
+      text-align: center;
+    }
+  }
 }
 </style>
 

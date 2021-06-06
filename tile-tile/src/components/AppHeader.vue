@@ -5,6 +5,7 @@
       >
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
         <v-toolbar-title>（有）石橋タイル工業</v-toolbar-title>
+        <!-- パソコンのヘッダー -->
         <v-tabs>
           <v-tab
             v-for="(menuItem, index) in menuItems"
@@ -15,6 +16,7 @@
           </v-tab>
         </v-tabs>
       </v-app-bar>
+      <!-- スマホのヘッダー -->
       <v-navigation-drawer
         v-model="drawer"
         fixed
@@ -62,11 +64,11 @@ export default {
     display: none !important;
   }
 }
-.v-tabs {
-  @include display_pc {
-    display: block !important;
-  }
-}
+// .v-tabs {
+//   @include display_pc {
+//     display: block !important;
+//   }
+// }
 .v-tabs {
   display: none;
   @include display_pc {
