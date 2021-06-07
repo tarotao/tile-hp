@@ -2,7 +2,7 @@
   <section class="home-case">
     <div class="section__title">
       <div class="section__title-text"><span>CASE</span></div>
-      <p class="section__title-text-sub">実績紹介</p>
+      <p class="section__title-text-sub">施工実績</p>
     </div>
     <v-container>
       <v-row class="home-case__contents">

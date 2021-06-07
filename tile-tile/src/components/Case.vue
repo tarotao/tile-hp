@@ -114,7 +114,7 @@ export default {
 @import "./src/styles/common/common.scss";
 
 .case__contents {
-  margin: 20px 20px 60px 20px;
+  margin: 20px 80px 60px 80px;
   justify-content: center;
 }
 .case__card {
