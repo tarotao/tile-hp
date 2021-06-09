@@ -7,7 +7,7 @@
           <p class="title sub">応募の際は、以下の電話番号またはメールアドレスにご連絡ください。</p>
           <ul>
             <li>電話番号:0479-82-4803</li>
-            <li>メールアドレス:tarotaro0987@yahoo.co.jp</li>
+            <li>メールアドレス:sige.1484.tile@ozzio.jp</li>
           </ul>
         </v-col>
       </v-row>

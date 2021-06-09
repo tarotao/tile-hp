@@ -15,7 +15,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
 @import "./src/styles/common/common.scss";
 .home-hero__content {
-    background: url("../assets/img/home-hero2.jpg");
+    background: url("../assets/img/hero-top.jpg");
     background-size: cover;
     background-position: center center;
     width: 100%;

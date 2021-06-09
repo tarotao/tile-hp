@@ -7,7 +7,7 @@
     <v-container class="v-con">
         <v-row class="home-recruit__contents">
             <v-col md="10" class="home-recruit__contents-text">
-                <p>有限会社石橋タイル工業では通年で採用を実施しています。これまでの経験を活かして活躍したい方や、新たなフィールドで知識や技術を身に着けたい方のエントリーをお待ちしています。</p>
+                <p>有限会社石橋タイル工業では通年で採用を実施しています。今までの技術を活かして活躍したい方や、新しい職場で知識や技術を身に着けたい方のエントリーをお待ちしています。</p>
             </v-col>
         </v-row>
         <AppButton :button-text="buttonText" :url="url"/>

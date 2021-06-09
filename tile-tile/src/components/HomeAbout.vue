@@ -7,11 +7,11 @@
     <v-container>
       <v-row class="home-about__contents">
         <v-col cols='12' sm="5">
-          <v-img class="home-about__contents-img" :src="require('../assets/img/profile.jpg')"></v-img>
+          <v-img class="home-about__contents-img" :src="require('../assets/img/working.jpg')"></v-img>
         </v-col>
         <v-col>
           <p class="home-about__contents-text">風呂場、トイレなどの水回りを始めとして、玄関まわりや外壁など、経験豊富な職人による高い技術力で施工いたします。</p>
-          <p class="home-about__contents-text">「顧客満足の向上」を活動の中心に置き、お客様と信頼関係を構築し、ニーズにお応えできるよう、日々邁進しています。</p>
+          <p class="home-about__contents-text">「１２０％の満足度」を活動の中心に置き、お客様と信頼関係を構築し、ニーズにお応えできるよう、日々邁進しています。</p>
         </v-col>
       </v-row>
     </v-container>

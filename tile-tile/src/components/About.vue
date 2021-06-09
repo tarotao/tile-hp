@@ -57,10 +57,13 @@
               </v-simple-table>
             </v-col>
           </v-row>
-          <v-row class="about__table-his">
+          <v-row >
             <v-col>
               <h2>沿革</h2>
-              <hr>
+            </v-col>
+          </v-row>
+          <v-row class="about__table-his">
+            <!-- <v-col>
               <v-simple-table class="v-table">
                 <template v-slot:default>
                   <tbody>
@@ -74,6 +77,38 @@
                   </tbody>
                 </template>
               </v-simple-table>
+              <v-timeline>
+                <v-timeline-item color="green">＜昭和４０年＞<br>石橋タイル店を創業しタイル工事の請負を開始</v-timeline-item>
+                <v-timeline-item class="text-right" color="red">
+                  ＜平成１８年＞<br>組織を法人に変更し(有)石橋タイル工業を設立
+                </v-timeline-item>
+                <v-timeline-item>＜平成２１年＞<br>新たな代表者に石橋重昭が就任</v-timeline-item>
+              </v-timeline>
+            </v-col> -->
+            <v-col>
+              <v-timeline class="time-line">
+    <v-timeline-item
+      v-for="(year, i) in years"
+      :key="i"
+      :color="year.color"
+      small
+    >
+      <template v-slot:opposite>
+        <span
+          :class="`headline font-weight-bold ${year.color}--text`"
+          v-text="year.year"
+        ></span>
+      </template>
+      <div class="py-4">
+        <!-- <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">
+          {{ year.title }}
+        </h2> -->
+        <div :class="`${year.color}--text`">
+          {{ year.text }}
+        </div>
+      </div>
+    </v-timeline-item>
+  </v-timeline>
             </v-col>
           </v-row>
         </v-col>
@@ -91,7 +126,24 @@ export default {
       title: 'ABOUT',
       subtitle: '会社案内',
       items: constants.aboutItems,
-      hisItems: constants.historyItems
+      hisItems: constants.historyItems,
+      years: [
+        {
+          color: 'cyan',
+          year: '１９６５年',
+          text: '石橋タイル店を創業しタイル工事の請負を開始'
+        },
+        {
+          color: 'green',
+          year: '２００６年',
+          text: '組織を法人に変更し(有)石橋タイル工業を設立'
+        },
+        {
+          color: 'pink',
+          year: '２００９年',
+          text: '新たな代表者に石橋重昭が就任'
+        }
+      ]
     }
   },
   components: {
@@ -103,6 +155,9 @@ export default {
 <style lang="scss" scoped>
 @import "./src/styles/common/common.scss";
 
+.time-line {
+  text-align: center;
+}
 .about {
   margin-bottom: 100px;
   &__contents {

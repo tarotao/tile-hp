@@ -8,10 +8,6 @@ export default {
       name: 'ABOUT',
       url: 'about'
     },
-    // {
-    //   name: 'WORKS',
-    //   url: 'work'
-    // },
     {
       name: 'CASE',
       url: 'case'
@@ -27,27 +23,15 @@ export default {
   ],
   caseItems: [
     {
-      src: require('../assets/img/work-img-1.png'),
-      url: '/case#case-1'
-    },
-    {
-      src: require('../assets/img/work-img-2.jpg'),
+      src: require('../assets/img/case-2.jpg'),
       url: '/case#case-2'
     },
     {
-      src: require('../assets/img/work-img-3.jpg'),
+      src: require('../assets/img/case-3.jpg'),
       url: '/case#case-3'
     },
     {
-      src: require('../assets/img/work-img-3.jpg'),
-      url: '/case#case-4'
-    },
-    {
-      src: require('../assets/img/work-img-3.jpg'),
-      url: '/case#case-5'
-    },
-    {
-      src: require('../assets/img/work-img-3.jpg'),
+      src: require('../assets/img/case-6.jpg'),
       url: '/case#case-6'
     }
   ],
@@ -62,15 +46,11 @@ export default {
     },
     {
       row: '住所',
-      col: 'っっっっっｐ千葉県山武市松尾町八田１−２７'
+      col: '千葉県山武市松尾町八田１−８'
     },
     {
       row: '代表者',
       col: '石橋重昭'
-    },
-    {
-      row: '住所',
-      col: '千葉県山武市殿台２９６'
     },
     {
       row: '電話番号',
@@ -82,7 +62,7 @@ export default {
     },
     {
       row: 'E-mail',
-      col: 'sigeaki@yahoo.co.jp'
+      col: 'sige.1484.tile@ozzio.jp'
     },
     {
       row: '資本金',
@@ -146,7 +126,7 @@ export default {
     },
     {
       row: '休憩時間',
-      col: '２時間'
+      col: '90分'
     },
     {
       row: '休日',
@@ -158,7 +138,7 @@ export default {
     },
     {
       row: '年齢',
-      col: '１８歳〜４５歳'
+      col: '２０歳〜５０歳'
     },
     {
       row: '学歴',

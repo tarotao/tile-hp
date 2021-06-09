@@ -33,7 +33,7 @@ export default {
 <style  lang="scss" scoped>
 @import "./src/styles/common/common.scss";
 .background-holder__content {
-  background: url("../assets/img/home-hero2.jpg");
+  background: url("../assets/img/hero-top.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -52,7 +52,7 @@ export default {
   &-subtext {
     color: white;
     text-align: center;
-    font-size: 17px;
+    font-size: 25px;
   }
 }
 </style>
