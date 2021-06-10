@@ -23,6 +23,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .v-form {
-    padding-bottom: 60px;
+    height: 1300px;
 }
 </style>
